@@ -1,23 +1,37 @@
-body{
-    margin:5%;
+@charset "utf-8";
+
+body {
+    margin: 5%;
 }
 
+/* h1用了内联样式，外联样式没有通过jQuery定义animate.css的优先级高，原因未知*/
+/*
 h1{
     font-size:26px;
 }
+*/
 
-h2{
-    font-size:18px;
+h2 {
+    font-size: 18px;
 }
 
-h3{
-    font-size:16px;
+h3 {
+    font-size: 16px;
 }
 
-#abstract{
-    font-family:"微软雅黑";
+#abstract {
+    font-family: "微软雅黑";
 }
 
-#hDetail{
-    font-family:"微软雅黑";
+#hDetail {
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+#footerSLS {
+    text-align: right;
+}
+
+#mAbout {
+    text-align: center;
 }
